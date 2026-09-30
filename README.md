@@ -1,4 +1,8 @@
-# Display Layout
+# Display Layout / 显示器布局
+
+[English](#english) · [中文](#中文)
+
+## English
 
 A small native macOS SwiftUI utility for arranging a two-display extended desktop.
 
@@ -14,7 +18,7 @@ A small native macOS SwiftUI utility for arranging a two-display extended deskto
 - Default GUI language: **English**.
 - In-app languages: **English** and **Simplified Chinese**.
 - Uses standard `.lproj/Localizable.strings` localization resources.
-- App icon at build time: macOS's built-in Finder icon.
+- App icon: bundled at `Resources/ApplicationStub.icns`; no local application dependency is required.
 
 ## Build and install
 
@@ -60,3 +64,19 @@ The app uses `NSApplication.ActivationPolicy.regular` and a managed normal windo
 ## Source / attribution
 
 The project was derived from ideas and CoreGraphics display-arrangement work in DisplayAlign. See `NOTICE.md` and `LICENSE-DISPLAYALIGN` for attribution and the MIT license notice.
+
+## 中文
+
+原生 macOS SwiftUI 双显示器布局工具，可将副显示器移动到主显示器的上、下、左或右侧，并自动居中。它直接使用 CoreGraphics，不依赖 Homebrew、后台守护进程或 `displayplacer`。
+
+### 构建与安装
+
+```bash
+cd /path/to/DisplayLayout
+chmod +x bundle.sh
+./bundle.sh
+```
+
+构建脚本会安装 `~/Applications/DisplayLayout.app`。应用支持英文和简体中文；可通过 **Display Layout → Settings…** (`⌘,`) 切换语言和“应用后退出”选项。
+
+图标已包含在 `Resources/ApplicationStub.icns`，构建不依赖本机其他应用。
