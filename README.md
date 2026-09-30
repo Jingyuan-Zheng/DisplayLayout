@@ -14,7 +14,7 @@ A small native macOS SwiftUI utility for arranging a two-display extended deskto
 - Default GUI language: **English**.
 - In-app languages: **English** and **Simplified Chinese**.
 - Uses standard `.lproj/Localizable.strings` localization resources.
-- App icon at build time: `/Applications/Sidecar.app/Contents/Resources/ApplicationStub.icns`.
+- App icon at build time: macOS's built-in Finder icon.
 
 ## Build and install
 

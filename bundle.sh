@@ -9,7 +9,7 @@ DISPLAY_NAME="Display Layout"
 BUNDLE_ID="is.zjy.displaylayout"
 INSTALL_DIR="$HOME/Applications"
 APP_DIR="$INSTALL_DIR/$APP_NAME.app"
-ICON_SOURCE="/Applications/Sidecar.app/Contents/Resources/ApplicationStub.icns"
+ICON_SOURCE="/System/Library/CoreServices/Finder.app/Contents/Resources/Finder.icns"
 
 if [[ ! -f "$ICON_SOURCE" ]]; then
   echo "Required application icon was not found:" >&2
@@ -30,7 +30,7 @@ fi
 rm -rf "$APP_DIR"
 mkdir -p "$APP_DIR/Contents/MacOS" "$APP_DIR/Contents/Resources"
 cp "$BIN" "$APP_DIR/Contents/MacOS/$APP_NAME"
-cp "$ICON_SOURCE" "$APP_DIR/Contents/Resources/ApplicationStub.icns"
+cp "$ICON_SOURCE" "$APP_DIR/Contents/Resources/Finder.icns"
 cp -R "$ROOT/Resources/en.lproj" "$APP_DIR/Contents/Resources/"
 cp -R "$ROOT/Resources/zh-Hans.lproj" "$APP_DIR/Contents/Resources/"
 
@@ -58,7 +58,7 @@ cat > "$APP_DIR/Contents/Info.plist" <<PLIST
     <key>CFBundleVersion</key>
     <string>2</string>
     <key>CFBundleIconFile</key>
-    <string>ApplicationStub.icns</string>
+    <string>Finder.icns</string>
     <key>CFBundleLocalizations</key>
     <array>
         <string>en</string>
