@@ -31,3 +31,8 @@
 "settings.behavior.header" = "行为";
 "settings.quitAfterApply.label" = "应用布局后自动退出";
 "settings.quitAfterApply.help" = "启用后，应用显示器位置后 Display Layout 会自动退出。";
+"menu.about" = "关于显示器布局";
+"about.website" = "个人网站";
+"about.repository" = "GitHub 仓库";
+"about.license" = "开源 · MIT 许可证";
+"about.credits" = "作者：Jingyuan Zheng\n\n个人网站\nGitHub 仓库\n\n开源 · MIT 许可证";
