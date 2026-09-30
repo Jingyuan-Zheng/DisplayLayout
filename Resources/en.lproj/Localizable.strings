@@ -1,0 +1,33 @@
+"window.title" = "Display Layout";
+"main.title" = "Display Layout";
+"main.footer" = "Only the secondary display position is changed. Resolution, refresh rate, scaling, and the main display remain unchanged.";
+
+"display.role.main" = "Main Display";
+"display.role.builtin" = "Built-in Display";
+"display.role.external" = "External Display";
+
+"direction.above" = "above";
+"direction.below" = "below";
+"direction.left" = "left";
+"direction.right" = "right";
+
+"action.refresh.help" = "Refresh displays";
+"action.move.help" = "Move the secondary display %@ the main display and center it";
+
+"status.reading" = "Reading displays…";
+"status.readError" = "Unable to read displays (CoreGraphics error %d).";
+"status.mirroring" = "The displays are mirrored. Switch to extended display mode first.";
+"status.ready" = "Choose where the secondary display should sit relative to the main display. It will be centered automatically.";
+"status.needsTwoDisplays" = "Connect two displays in extended display mode.";
+"status.tooManyDisplays" = "%d displays detected. This streamlined version currently supports two displays.";
+"status.invalidLayout" = "The current configuration is not a standard two-display extended layout.";
+"status.beginError" = "Unable to begin display configuration (error %d).";
+"status.moveError" = "Unable to move the display (error %d).";
+"status.saveError" = "Unable to save the display layout (error %d).";
+"status.applied" = "Moved the secondary display %@ the main display and centered it.";
+
+"settings.general.header" = "General";
+"settings.language.label" = "Language";
+"settings.behavior.header" = "Behavior";
+"settings.quitAfterApply.label" = "Quit after applying a layout";
+"settings.quitAfterApply.help" = "When enabled, Display Layout closes automatically after the display position has been applied.";

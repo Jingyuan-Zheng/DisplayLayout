@@ -1,0 +1,33 @@
+"window.title" = "显示器布局";
+"main.title" = "显示器布局";
+"main.footer" = "只改变第二块显示器的位置，不修改分辨率、刷新率、缩放或主显示器设置。";
+
+"display.role.main" = "主显示器";
+"display.role.builtin" = "内置显示器";
+"display.role.external" = "外接显示器";
+
+"direction.above" = "上方";
+"direction.below" = "下方";
+"direction.left" = "左侧";
+"direction.right" = "右侧";
+
+"action.refresh.help" = "刷新显示器";
+"action.move.help" = "将第二块显示器移动到主显示器%@并居中";
+
+"status.reading" = "正在读取显示器…";
+"status.readError" = "无法读取显示器（CoreGraphics 错误 %d）。";
+"status.mirroring" = "当前处于镜像模式，请先切换为扩展显示。";
+"status.ready" = "选择第二块显示器相对于主显示器的位置，系统会自动沿中线居中。";
+"status.needsTwoDisplays" = "需要连接两块处于扩展模式的显示器。";
+"status.tooManyDisplays" = "当前检测到 %d 块显示器；这个精简版目前支持双屏。";
+"status.invalidLayout" = "当前不是标准双屏扩展布局。";
+"status.beginError" = "无法开始显示器配置（错误 %d）。";
+"status.moveError" = "移动显示器失败（错误 %d）。";
+"status.saveError" = "保存显示器布局失败（错误 %d）。";
+"status.applied" = "已将第二块显示器移动到主显示器%@并居中。";
+
+"settings.general.header" = "通用";
+"settings.language.label" = "语言";
+"settings.behavior.header" = "行为";
+"settings.quitAfterApply.label" = "应用布局后自动退出";
+"settings.quitAfterApply.help" = "启用后，应用显示器位置后 Display Layout 会自动退出。";
