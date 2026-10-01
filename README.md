@@ -13,6 +13,13 @@ chmod +x bundle.sh
 
 The script installs `~/Applications/DisplayLayout.app`. The app supports English and Simplified Chinese.
 
+## Use
+
+1. Connect exactly two displays and select extended desktop mode in macOS Display Settings.
+2. Open Display Layout from Applications, Finder, or Spotlight.
+3. Select the desired relative position for the secondary display and apply it.
+4. Open **Display Layout → Settings…** to change language or enable quit-after-apply.
+
 ## Behaviour
 
 The utility supports one main display and one secondary display in extended-desktop mode. It changes only the secondary display position; resolution, refresh rate, scaling, and main-display selection remain unchanged. Open **Display Layout → Settings…** to choose language and whether the app quits after applying a layout.

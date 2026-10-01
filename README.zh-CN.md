@@ -13,6 +13,13 @@ chmod +x bundle.sh
 
 脚本会安装 `~/Applications/DisplayLayout.app`；应用支持英文和简体中文。
 
+## 使用方法
+
+1. 连接恰好两块显示器，并在 macOS 显示器设置中选择扩展桌面模式。
+2. 从“应用程序”、Finder 或 Spotlight 打开 Display Layout。
+3. 选择副显示器相对主显示器的位置并应用。
+4. 通过 **Display Layout → Settings…** 切换语言或启用“应用后退出”。
+
 ## 行为
 
 此工具支持一个主显示器和一个处于扩展桌面模式的副显示器。它只修改副显示器的位置，不会改变分辨率、刷新率、缩放或主显示器选择。通过 **Display Layout → Settings…** 可切换语言和设置应用布局后是否退出。
